@@ -1,0 +1,6 @@
+#!/bin/bash
+set -e
+
+while read -r extension; do
+  code --install-extension "$extension"
+done < extensions
