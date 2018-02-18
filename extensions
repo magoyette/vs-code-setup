@@ -37,4 +37,5 @@ ryu1kn.partial-diff
 shengchen.vscode-checkstyle
 vscjava.vscode-java-debug
 vscjava.vscode-java-test
+vscjava.vscode-maven
 wmaurer.vscode-jumpy
