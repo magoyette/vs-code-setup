@@ -4,8 +4,7 @@ DotJoshJohnson.xml
 EditorConfig.EditorConfig
 IBM.output-colorizer
 PeterJausovec.vscode-docker
-Pivotal.vscode-boot-java
-Pivotal.vscode-boot-properties
+Pivotal.vscode-spring-boot
 SonarSource.sonarlint-vscode
 alefragnani.Bookmarks
 alefragnani.project-manager
