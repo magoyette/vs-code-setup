@@ -1,0 +1,15 @@
+#!/bin/bash
+actual_settings=~/.config/Code/User/settings.json
+
+if [ -f $actual_settings ]; then
+  jq -s '.[0] * .[1]' $actual_settings ./settings.json \
+     > tmpfile && mv tmpfile $actual_settings
+else
+  cp ./settings.json $actual_settings
+fi
+
+actual_locale_settings=~/.config/Code/User/locale.json
+
+if [ ! -f $actual_locale_settings ]; then
+  cp -f ./locale.json $actual_locale_settings
+fi

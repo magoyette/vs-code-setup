@@ -4,18 +4,10 @@ My personal VS Code setup.
 
 For now, it has only been tested with Linux.
 
-Backward compatibility will be broken often, so it's probably better to copy
-snippets from this repository than to fork it.
+## Dependencies
 
-## Cloning the repository
-
-The following commands remove all existing VS Code user settings
-and replace them with the settings of the `vs-code-setup` repository.
-
-```shell
-rm -drf ~/.config/Code/User
-git clone https://github.com/magoyette/vs-code-setup.git ~/.config/Code/User
-```
+[jq](https://stedolan.github.io/jq/) must be available from the Linux path.
+jq is used to merge the JSON settings.
 
 ## Installing the extensions
 
@@ -36,3 +28,13 @@ installed in the `extensions` file.
 chmod a+x save-extensions
 ./save-extensions
 ```
+
+## Applying the settings on VS Code
+
+`apply-settings` will merge the settings of this repository with the settings
+of VS Code (stored in ~/.config/Code/User/settings.json).
+
+## Retrieve the settings from VS Code
+
+`save-settings` will retrieve the settings of VS Code (stored in
+~/.config/Code/User/settings.json) and save them in this repository.
