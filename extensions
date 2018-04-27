@@ -2,6 +2,7 @@ Angular.ng-template
 DavidAnson.vscode-markdownlint
 DotJoshJohnson.xml
 EditorConfig.EditorConfig
+GabrielBB.vscode-lombok
 IBM.output-colorizer
 PeterJausovec.vscode-docker
 Pivotal.vscode-spring-boot
@@ -22,7 +23,6 @@ emmanuelbeziat.vscode-great-icons
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 formulahendry.code-runner
-GabrielBB.vscode-lombok
 hbenl.vscode-firefox-debug
 humao.rest-client
 ithildir.java-properties
@@ -36,6 +36,7 @@ ritwickdey.LiveServer
 robinbentley.sass-indented
 ryu1kn.partial-diff
 shengchen.vscode-checkstyle
+timonwong.shellcheck
 vscjava.vscode-java-debug
 vscjava.vscode-java-test
 vscjava.vscode-maven
