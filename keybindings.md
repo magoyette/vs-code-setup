@@ -23,8 +23,8 @@
 
 | Keybinding | Action |
 |------------|--------|
-| Show Gitlens | Ctrl+Shift+G Shift+B |
-| Show blame annotations | Ctrl+Shift+G B |
+| Ctrl+Shift+G Shift+B | Show Gitlens |
+| Ctrl+Shift+G B | Show blame annotations |
 
 ## Debugging
 
