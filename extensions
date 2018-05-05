@@ -10,6 +10,7 @@ Pivotal.vscode-spring-boot
 SonarSource.sonarlint-vscode
 alefragnani.Bookmarks
 alefragnani.project-manager
+alexkrechik.cucumberautocomplete
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
 codezombiech.gitignore
