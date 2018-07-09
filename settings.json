@@ -1,12 +1,15 @@
 {
   "editor.fontSize": 16,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.statusBar.feedback.visible": false,
-  "workbench.editor.labelFormat": "short",
-  "telemetry.enableTelemetry": false,
   "gitlens.advanced.messages": {
     "suppressShowKeyBindingsNotice": true
   },
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.editor.labelFormat": "short",
+  "telemetry.enableTelemetry": false,
   "gitlens.historyExplorer.enabled": true,
   "gitlens.codeLens.scopes": [
     "document",
@@ -14,5 +17,6 @@
   ],
   "gitlens.codeLens.enabled": false,
   "gitlens.currentLine.enabled": false,
-  "gitlens.hovers.currentLine.over": "line"
+  "gitlens.hovers.currentLine.over": "line",
+  "git.confirmSync": false
 }
