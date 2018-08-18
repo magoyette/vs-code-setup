@@ -19,5 +19,7 @@
   "gitlens.currentLine.enabled": false,
   "gitlens.hovers.currentLine.over": "line",
   "git.confirmSync": false,
-  "breadcrumbs.enabled": true
+  "breadcrumbs.enabled": true,
+  "workbench.enableExperiments": false,
+  "workbench.settings.enableNaturalLanguageSearch": false
 }
