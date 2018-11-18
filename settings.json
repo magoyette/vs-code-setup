@@ -20,6 +20,7 @@
   "gitlens.hovers.currentLine.over": "line",
   "git.confirmSync": false,
   "breadcrumbs.enabled": true,
+  "workbench.editor.highlightModifiedTabs": true,
   "workbench.enableExperiments": false,
   "workbench.settings.enableNaturalLanguageSearch": false
 }
