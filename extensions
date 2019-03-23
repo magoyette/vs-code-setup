@@ -49,12 +49,12 @@ shengchen.vscode-checkstyle
 shinnn.stylelint
 SonarSource.sonarlint-vscode
 timonwong.shellcheck
-tootone.org-mode
 vscjava.vscode-java-debug
 vscjava.vscode-java-dependency
 vscjava.vscode-java-test
 vscjava.vscode-maven
 vscjava.vscode-spring-boot-dashboard
 vscjava.vscode-spring-initializr
+vscode-org-mode.org-mode
 vscoss.vscode-ansible
 wmaurer.vscode-jumpy
