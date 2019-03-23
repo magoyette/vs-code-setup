@@ -51,6 +51,7 @@ SonarSource.sonarlint-vscode
 timonwong.shellcheck
 tootone.org-mode
 vscjava.vscode-java-debug
+vscjava.vscode-java-dependency
 vscjava.vscode-java-test
 vscjava.vscode-maven
 vscjava.vscode-spring-boot-dashboard
