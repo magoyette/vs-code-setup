@@ -1,6 +1,0 @@
-#!/bin/bash
-set -e
-
-while read -r extension; do
-  flatpak run com.visualstudio.code.oss --install-extension "$extension"
-done < extensions
