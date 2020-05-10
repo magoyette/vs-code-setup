@@ -1,26 +1,24 @@
 {
+  "editor.minimap.enabled": false,
+  "editor.fontFamily": "'DejaVu Sans Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
   "editor.fontSize": 16,
+  "editor.lineHeight": 20,
   "editor.codeActionsOnSave": {
     "source.organizeImports": true
   },
-  "workbench.startupEditor": "newUntitledFile",
-  "gitlens.advanced.messages": {
-    "suppressShowKeyBindingsNotice": true
-  },
-  "workbench.statusBar.feedback.visible": false,
-  "workbench.editor.labelFormat": "short",
-  "telemetry.enableTelemetry": false,
-  "gitlens.historyExplorer.enabled": true,
-  "gitlens.codeLens.scopes": [
-    "document",
-    "containers"
-  ],
-  "gitlens.codeLens.enabled": false,
-  "gitlens.currentLine.enabled": false,
-  "gitlens.hovers.currentLine.over": "line",
-  "git.confirmSync": false,
-  "breadcrumbs.enabled": true,
-  "workbench.editor.highlightModifiedTabs": true,
+  "files.trimTrailingWhitespace": true,
+  "telemetry.enableCrashReporter": false,
   "workbench.enableExperiments": false,
-  "workbench.settings.enableNaturalLanguageSearch": false
+  "telemetry.enableTelemetry": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
