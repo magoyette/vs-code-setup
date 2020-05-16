@@ -3,9 +3,6 @@
   "editor.fontFamily": "'DejaVu Sans Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
   "editor.fontSize": 16,
   "editor.lineHeight": 20,
-  "editor.codeActionsOnSave": {
-    "source.organizeImports": true
-  },
   "files.trimTrailingWhitespace": true,
   "telemetry.enableCrashReporter": false,
   "workbench.enableExperiments": false,
