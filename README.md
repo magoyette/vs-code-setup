@@ -50,6 +50,7 @@ of VS Code (stored in `~/.config/Code/User/settings.json`).
 | [Debugger for Firefox](https://marketplace.visualstudio.com/items?itemName=firefox-devtools.vscode-firefox-debug) | Debug with Firefox from VS Code. |
 | [ES7 React/Redux/React-Native/JS snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets) | Snippets for React. |
 | [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) | Lint JavaScript files with ESLint. |
+| [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore) | Support for .gitignore files. |
 | [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) | Improves Git History and Git Blame support in VS Code. |
 | [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) | Icon theme with Material Design icons. |
 | [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) | Lint Markdown files with markdownlint. |
@@ -60,6 +61,7 @@ of VS Code (stored in `~/.config/Code/User/settings.json`).
 | [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager) | Quick access to switch between projects. |
 | [ShellCheck](https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck) | Lint bash and sh files with ShellCheck. |
 | [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) | Lint CSS and Sass files with stylelint. |
+| [Transformer](https://marketplace.visualstudio.com/items?itemName=dakara.transformer) | Additional text operations like sorting. |
 
 ## Keybindings
 
