@@ -45,6 +45,13 @@
 | Alt+Click        | Add a cursor                                         |
 | Ctrl+Shift+L     | Select all occurences of the currently selected text |
 | Shift+Alt+Mouse  | Box selection                                        |
+| Alt+Ctrl+K       | Toggle bookmark                                      |
+
+## JavaScript and TypeScript Keybindings
+
+|  Keybinding | Command                                          |
+| ----------- | ------------------------------------------------ |
+| Ctrl+Alt+R  | JavaScript, TypeScript and React snippets search |
 
 ## Markdown Keybindings
 
