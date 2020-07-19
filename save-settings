@@ -1,5 +1,0 @@
-#!/bin/bash
-actual_settings=~/.config/Code/User/settings.json
-
-jq -s '.[0] * .[1]' ./settings.json $actual_settings \
-   > tmpfile && mv tmpfile ./settings.json
