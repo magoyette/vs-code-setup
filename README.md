@@ -63,6 +63,15 @@ My personal VS Code setup.
 }
 ```
 
+## Settings on Windows
+
+```json
+{
+  ...
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+}
+```
+
 ## Keybindings
 
 ### Navigation Keybindings
