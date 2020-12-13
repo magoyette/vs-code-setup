@@ -37,6 +37,7 @@ My personal VS Code setup.
   "telemetry.enableTelemetry": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.enablePreview": false,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
