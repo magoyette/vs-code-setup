@@ -50,6 +50,9 @@ My personal VS Code setup.
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "gitlens.currentLine.enabled": false,
   "gitlens.hovers.currentLine.over": "line",
