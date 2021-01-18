@@ -129,6 +129,15 @@ My personal VS Code setup.
 | Shift+Alt+Mouse  | Box selection                                         |
 | Alt+Ctrl+K       | Toggle bookmark                                       |
 
+### Magit Keybindings
+
+|  Keybinding  | Command          |
+| ------------ | ---------------- |
+| Alt+X G      | Magit status     |
+| Alt+X Alt+G  | Magit file popup |
+| Alt+X Ctrl+G | Magit dispatch   |
+| ?            | Magit help       |
+
 ### JavaScript and TypeScript Keybindings
 
 |  Keybinding | Command                                          |
