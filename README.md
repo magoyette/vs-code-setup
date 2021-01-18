@@ -70,16 +70,13 @@ My personal VS Code setup.
   "gitlens.statusBar.enabled": false,
   "gitlens.hovers.enabled": false,
   "extensions.ignoreRecommendations": false,
-  "workbench.colorTheme": "GitHub Dark"
-}
-
-```
-
-## Settings on Windows
-
-```json
-{
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "workbench.colorTheme": "GitHub Dark",
+  "bracket-pair-colorizer-2.colors": [
+    "#ffdf5d",
+    "#ec6cb9",
+    "#34d058"
+  ]
 }
 ```
 
