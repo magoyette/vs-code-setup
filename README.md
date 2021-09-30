@@ -6,11 +6,11 @@ My personal VS Code setup.
 
 | Extension | Description |
 | --------- | ----------- |
+|[Bash IDE](https://marketplace.visualstudio.com/items?itemName=mads-hartmann.bash-ide-vscode&ssr=false#overview)|Language server for Bash.|
 |[Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)|Mark and jump to bookmarks.|
-|[Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)|Colorize brackets with various colors.|
 |[Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)|Spell checker with programming languages awareness.|
-|[Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)|Debug with Chrome from VS Code.|
 |[Debugger for Firefox](https://marketplace.visualstudio.com/items?itemName=firefox-devtools.vscode-firefox-debug)|Debug with Firefox from VS Code.|
+|[Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)|Editor for Docker files and integration with Docker containers.|
 |[edamagit](https://marketplace.visualstudio.com/items?itemName=kahole.magit)|Magit for VS Code.|
 |[ES7 React/Redux/React-Native/JS snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)|Snippets for React.|
 |[ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)|Lint JavaScript files with ESLint.|
@@ -36,6 +36,7 @@ My personal VS Code setup.
   "editor.fontFamily": "'DejaVu Sans Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
   "editor.fontSize": 16,
   "editor.lineHeight": 20,
+  "editor.bracketPairColorization.enabled": true,
   "files.trimTrailingWhitespace": true,
   "telemetry.enableCrashReporter": false,
   "workbench.enableExperiments": false,
@@ -59,6 +60,9 @@ My personal VS Code setup.
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "cSpell.language": "en,fr",
   "cSpell.ignoreRegExpList": [
@@ -70,13 +74,8 @@ My personal VS Code setup.
   "gitlens.statusBar.enabled": false,
   "gitlens.hovers.enabled": false,
   "extensions.ignoreRecommendations": false,
-  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
   "workbench.colorTheme": "GitHub Dark",
-  "bracket-pair-colorizer-2.colors": [
-    "#ffdf5d",
-    "#ec6cb9",
-    "#34d058"
-  ]
+  "terminal.integrated.defaultProfile.windows": "Git Bash"
 }
 ```
 
