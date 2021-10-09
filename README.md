@@ -32,18 +32,31 @@ My personal VS Code setup.
 
 ```json
 {
+  "cSpell.ignoreRegExpList": [
+    "string"
+  ],
+  "cSpell.language": "en,fr",
   "editor.minimap.enabled": false,
   "editor.fontFamily": "'DejaVu Sans Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
   "editor.fontSize": 16,
   "editor.lineHeight": 20,
   "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "extensions.ignoreRecommendations": false,
   "files.trimTrailingWhitespace": true,
-  "telemetry.enableCrashReporter": false,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.codeLens.enabled": false,
+  "gitlens.statusBar.enabled": false,
+  "gitlens.hovers.enabled": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "telemetry.telemetryLevel": "off",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.colorTheme": "GitHub Dark",
+  "workbench.editor.enablePreview": false,
   "workbench.enableExperiments": false,
-  "telemetry.enableTelemetry": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.editor.enablePreview": false,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -51,31 +64,18 @@ My personal VS Code setup.
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
-  "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[typescriptreact]": {
+  "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "cSpell.language": "en,fr",
-  "cSpell.ignoreRegExpList": [
-    "string"
-  ],
-  "gitlens.currentLine.enabled": false,
-  "gitlens.hovers.currentLine.over": "line",
-  "gitlens.codeLens.enabled": false,
-  "gitlens.statusBar.enabled": false,
-  "gitlens.hovers.enabled": false,
-  "extensions.ignoreRecommendations": false,
-  "workbench.colorTheme": "GitHub Dark",
-  "terminal.integrated.defaultProfile.windows": "Git Bash"
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
 ```
 
