@@ -2,39 +2,38 @@
 
 My personal VS Code setup.
 
-## Extensions for all operating systems
+## Extensions
 
-| Extension | Description |
-| --------- | ----------- |
-|[Bash IDE](https://marketplace.visualstudio.com/items?itemName=mads-hartmann.bash-ide-vscode&ssr=false#overview)|Language server for Bash.|
-|[Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)|Mark and jump to bookmarks.|
-|[Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)|Spell checker with programming languages awareness.|
-|[Debugger for Firefox](https://marketplace.visualstudio.com/items?itemName=firefox-devtools.vscode-firefox-debug)|Debug with Firefox from VS Code.|
-|[Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)|Editor for Docker files and integration with Docker containers.|
-|[edamagit](https://marketplace.visualstudio.com/items?itemName=kahole.magit)|Magit for VS Code.|
-|[ES7 React/Redux/React-Native/JS snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)|Snippets for React.|
-|[ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)|Lint JavaScript files with ESLint.|
-|[French - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-french)|French Dictionary for Code Spell Checker.|
-|[GitHub Theme](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)|GitHub theme.|
-|[GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)|Improves Git History and Git Blame support in VS Code.|
-|[Hugo Language and Syntax Support](https://marketplace.visualstudio.com/items?itemName=budparr.language-hugo-vscode)|Syntax highlight for Hugo Templates.|
-|[markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)|Lint Markdown files with markdownlint.|
-|[Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)|Icon theme with Material Design icons.|
-|[npm](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script)|Run nom commands and verify installed version of NPM packages.|
-|[npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)|Autocomplete npm modules in import statements.|
-|[Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)|Autocomplete file names.|
-|[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)|Format code with Prettier.|
-|[ShellCheck](https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck)|Lint bash and sh files with ShellCheck.|
-|[stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)|Lint CSS and Sass files with stylelint.|
-|[Transformer](https://marketplace.visualstudio.com/items?itemName=dakara.transformer)|Additional text operations like sorting.|
+- [Bash IDE](https://marketplace.visualstudio.com/items?itemName=mads-hartmann.bash-ide-vscode&ssr=false#overview): Language server for Bash.
+- [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks): Mark and jump to bookmarks.
+- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker): Spell checker with programming languages awareness.
+- [Debugger for Firefox](https://marketplace.visualstudio.com/items?itemName=firefox-devtools.vscode-firefox-debug): Debug with Firefox from VS Code.
+- [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker): Editor for Docker files and integration with Docker containers.
+- [edamagit](https://marketplace.visualstudio.com/items?itemName=kahole.magit): Magit for VS Code.
+- [ES7 React/Redux/React-Native/JS snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets): Snippets for React.
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint): Lint JavaScript files with ESLint.
+- [French - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-french): French Dictionary for Code Spell Checker.
+- [GitHub Theme](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme): GitHub theme.
+- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): Improves Git History and Git Blame support in VS Code.
+- [Hugo Language and Syntax Support](https://marketplace.visualstudio.com/items?itemName=budparr.language-hugo-vscode): Syntax highlight for Hugo Templates.
+- [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint): Lint Markdown files with markdownlint.
+- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme): Icon theme with Material Design icons.
+- [npm](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script): Run nom commands and verify installed version of NPM packages.
+- [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense): Autocomplete npm modules in import statements.
+- [Partial Diff](https://marketplace.visualstudio.com/items?itemName=ryu1kn.partial-diff): Diff selections of text.
+- [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense): Autocomplete file names.
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode): Format code with Prettier.
+- [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv): Syntax highlight for CSVs and TSVs.
+- [ShellCheck](https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck): Lint bash and sh files with ShellCheck.
+- [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint): Lint CSS and Sass files with stylelint.
+- [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree): Tree view of TODOs in workspace.
+- [Transformer](https://marketplace.visualstudio.com/items?itemName=dakara.transformer): Additional text operations like sorting.
 
 ## Settings
 
 ```json
 {
-  "cSpell.ignoreRegExpList": [
-    "string"
-  ],
+  "cSpell.ignoreRegExpList": ["/\\w+([0-9]+\\w*)+/"],
   "cSpell.language": "en,fr",
   "editor.minimap.enabled": false,
   "editor.fontFamily": "'DejaVu Sans Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
@@ -52,7 +51,7 @@ My personal VS Code setup.
   "javascript.updateImportsOnFileMove.enabled": "always",
   "telemetry.telemetryLevel": "off",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "workbench.colorTheme": "GitHub Dark",
+  "workbench.colorTheme": "GitHub Light Default",
   "workbench.editor.enablePreview": false,
   "workbench.enableExperiments": false,
   "workbench.iconTheme": "material-icon-theme",
@@ -71,81 +70,117 @@ My personal VS Code setup.
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "files.trimTrailingWhitespace": false
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "editor.linkedEditing": true
 }
 ```
 
-## Keybindings
+## Keybindings (for Windows)
 
-### Navigation Keybindings
+### Commands
 
-|  Keybinding                 | Command                            |
-| --------------------------- | ---------------------------------- |
-| Ctrl+Shift+P                | Command palette                    |
-| Ctrl+P                      | Quick open (can use file@symbol)   |
-| Ctrl+TAB and Ctrl+Shift+Tab | Cycle through opened files         |
-| Ctrl+Shift+M                | Errors and Warnings                |
-| Ctrl+F                      | Search opened files                |
-| Ctrl+Shift+F                | Search workspace                   |
-| Alt+Mouse                   | Open editors split horizontally    |
-| Ctrl+1, Ctrl+2 ...          | Switch between editors             |
-| Ctrl+F4                     | Close active editor                |
-| Ctrl+PageDown               | Go to right editor                 |
-| Ctrl+PageUp                 | Go to left editor                  |
+| Keybinding   | Command         |
+| ------------ | --------------- |
+| Ctrl+Shift+P | Command Palette |
+| Ctrl+,       | Settings        |
 
-### Views Keybindings
+### Navigation
 
-|  Keybinding    | Command             |
+| Keybinding                 | Command                                                                  |
+| -------------------------- | ------------------------------------------------------------------------ |
+| Ctrl+P                     | Open a file by name                                                      |
+| Ctrl+Tab et Ctrl+Shift+Tab | Select a file in a list of opened files                                  |
+| Alt+Left                   | Go to previous edit location                                             |
+| Alt+Right                  | Go to next edit location                                                 |
+| F12 or Ctrl+Click          | Go to the definition of a symbol                                         |
+| Alt+F12                    | Peek definition of symbol                                                |
+| Ctrl+F12                   | Go to implementation of a symbol                                         |
+| Ctrl+Shift+O               | Go to a symbol in the current file by name (type : to group by category) |
+| Ctrl+T                     | Go to a symbol in a file of the project by name                          |
+| Shift+Alt+F12              | Find references                                                          |
+
+### Views and panels
+
+| Keybinding     | Command             |
 | -------------- | ------------------- |
 | Ctrl+B         | Toggle sidebar      |
-| Ctrl+Shift+G G | Source Control view |
+| Ctrl+Shift+E   | Explorer view       |
+| Ctrl+Shift+G G | Source control view |
+| Ctrl+Shift+M   | Problems panel      |
+| Ctrl+Shift+X   | Extensions view     |
+| Ctrl+`         | Terminal panel      |
 
-### Code Keybindings
+### Problems and refactoring
 
-|  Keybinding      | Command                                               |
-| ---------------- | ----------------------------------------------------- |
-| Ctrl+Space       | Intellisense                                          |
-| Ctrl+Shift+Space | Show current completion signature                     |
-| Ctrl+Shift+O     | Go to symbol in current file                          |
-| Ctrl+T           | Go to symbol in workspace                             |
-| Alt+F12 or F12   | Go to definition                                      |
-| Ctrl+Shift+F10   | Peek definition                                       |
-| Shift+F12        | Go to References                                      |
-| Ctrl+G           | Navigate to a specific line in current file           |
-| Ctrl+K Ctrl+I    | Show hover at cursor                                  |
-| Ctrl+Shift+I     | Format file                                           |
-| Shift+Alt+O      | Organize imports                                      |
-| F2               | Rename symbol at cursor                               |
-| Ctrl+.           | Code actions (refactoring and fixes)                  |
-| Shift+Alt+Right  | Expand selection                                      |
-| Shift+Alt+Left   | Shrink selection                                      |
-| Alt+Click        | Add a cursor                                          |
-| Ctrl+Shift+L     | Select all occurrences of the currently selected text |
-| Shift+Alt+Mouse  | Box selection                                         |
-| Alt+Ctrl+K       | Toggle bookmark                                       |
+| Keybinding | Command                                           |
+| ---------- | ------------------------------------------------- |
+| F8         | Go to next problem                                |
+| Shift+F8   | Go to previous problem                            |
+| Ctrl+.     | Quick fix and refactoring for the current problem |
+| F2         | Rename symbol                                     |
 
-### Magit Keybindings
+### Edition
 
-|  Keybinding  | Command          |
-| ------------ | ---------------- |
-| Alt+X G      | Magit status     |
-| Alt+X Alt+G  | Magit file popup |
-| Alt+X Ctrl+G | Magit dispatch   |
-| ?            | Magit help       |
+| Keybinding                 | Command                  |
+| -------------------------- | ------------------------ |
+| Ctrl+Shift+Alt+(arrow key) | Column (box) selection   |
+| Shift+Alt+Left             | Shrink current selection |
+| Shift+Alt+Right            | Expand current selection |
+| Alt+Up or Alt+Down         | Move line up or down     |
+| Ctrl+Shift+K               | Delete line              |
+| Ctrl+Enter                 | Insert line below        |
+| Ctrl+Shift+Enter           | Insert line above        |
+| Ctrl+Up or Ctrl+Down       | Scroll line up or down   |
 
-### JavaScript and TypeScript Keybindings
+### Search
 
-|  Keybinding | Command                                          |
-| ----------- | ------------------------------------------------ |
-| Ctrl+Alt+R  | JavaScript, TypeScript and React snippets search |
+| Keybinding   | Command                                                              |
+| ------------ | -------------------------------------------------------------------- |
+| Ctrl+F       | Search in current editor (navigate results with Enter & Shift+Enter) |
+| F3           | Go to next search result                                             |
+| Shift+F3     | Go to previous search result                                         |
+| Ctrl+H       | Replace in current editor                                            |
+| Ctrl+Shift+F | Search all files in current folder                                   |
 
-### Markdown Keybindings
+### Code
 
-|  Keybinding  | Command                         |
-| ------------ | ------------------------------- |
-| Ctrl+Shift+V | Switch between code and preview |
-| Ctrl+K V     | Preview side-by-side            |
+| Keybinding  | Command      |
+| ----------- | ------------ |
+| Ctrl+Space  | Intellisense |
+| Shift+Alt+F | Format file  |
+
+### Multiple Cursors
+
+| Keybinding    | Command          |
+| ------------- | ---------------- |
+| Alt+Click     | Add cursors      |
+| Ctrl+Alt+Down | Add cursor below |
+| Ctrl+Alt+Up   | Add cursor above |
+
+### Folding
+
+| Keybinding    | Command                           |
+| ------------- | --------------------------------- |
+| Ctrl+K Ctrl+L | Toggle fold of the current region |
+
+### Git
+
+| Keybinding | Command                   |
+| ---------- | ------------------------- |
+| F7         | Go to next difference     |
+| Shift+F7   | Go to previous difference |
+
+### Markdown
+
+| Keybinding   | Command                                    |
+| ------------ | ------------------------------------------ |
+| Ctrl+Shift+V | Switch between Markdown editor and preview |
+| Ctrl+K V     | Open preview on the side                   |
+| Alt+Shift+F  | Format Markdown table                      |
