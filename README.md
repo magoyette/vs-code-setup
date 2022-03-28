@@ -43,6 +43,7 @@ My personal VS Code setup.
   "editor.guides.bracketPairs": true,
   "extensions.ignoreRecommendations": false,
   "files.trimTrailingWhitespace": true,
+  "git.closeDiffOnOperation": true,
   "gitlens.currentLine.enabled": false,
   "gitlens.hovers.currentLine.over": "line",
   "gitlens.codeLens.enabled": false,
