@@ -85,6 +85,37 @@ My personal VS Code setup.
 
 ## Keybindings (for Windows)
 
+```json
+[
+  {
+    "key": "ctrl+alt+i",
+    "command": "bookmarks.toggleLabeled"
+  },
+  {
+    "key": "ctrl+alt+o",
+    "command": "bookmarks.list"
+  },
+  {
+    "key": "ctrl+alt+u",
+    "command": "bookmarks.listFromAllFiles"
+  },
+  {
+    "key": "ctrl+alt+oem_period",
+    "command": "cSpell.addWordToWorkspaceSettings"
+  },
+  {
+    "key": "capslock",
+    "command": "editor.toggleFold",
+    "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+    "key": "ctrl+k ctrl+l",
+    "command": "-editor.toggleFold",
+    "when": "editorTextFocus && foldingEnabled"
+  }
+]
+```
+
 ### Commands
 
 | Keybinding   | Command         |
@@ -167,9 +198,9 @@ My personal VS Code setup.
 
 ### Folding
 
-| Keybinding    | Command                           |
-| ------------- | --------------------------------- |
-| Ctrl+K Ctrl+L | Toggle fold of the current region |
+| Keybinding | Command                           |
+| ---------- | --------------------------------- |
+| Caps Lock  | Toggle fold of the current region |
 
 ### Git
 
@@ -185,3 +216,29 @@ My personal VS Code setup.
 | Ctrl+Shift+V | Switch between Markdown editor and preview |
 | Ctrl+K V     | Open preview on the side                   |
 | Alt+Shift+F  | Format Markdown table                      |
+
+### Bookmarks
+
+| Keybinding | Command                   |
+| ---------- | ------------------------- |
+| Ctrl+Alt+K | Toggle bookmark           |
+| Ctrl+Alt+I | Toggle labeled bookmark   |
+| Ctrl+Alt+L | Jump to next bookmark     |
+| Ctrl+Alt+J | Jump to previous bookmark |
+| Ctrl+Alt+O | List bookmarks            |
+| Ctrl+Alt+U | List from all files       |
+
+### Code Spell Checker
+
+| Keybinding | Command                         |
+| ---------- | ------------------------------- |
+| Ctrl+Alt+. | Add words to workspace settings |
+
+### edamagit
+
+| Keybinding   | Command          |
+| ------------ | ---------------- |
+| Alt+X G      | Magit Status     |
+| Alt+X Alt+G  | Magit File Popup |
+| Alt+X Ctrl+G | Magit Dispatch   |
+| Shift+É      | Magit Help       |
