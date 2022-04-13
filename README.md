@@ -81,7 +81,28 @@ My personal VS Code setup.
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
-  "editor.linkedEditing": true
+  "editor.linkedEditing": true,
+  "todo-tree.general.tags": ["TODO", "STARTED", "NEXT", "WAIT", "COMPLETE"],
+  "todo-tree.highlights.defaultHighlight": {
+    "fontWeight": "bold"
+  },
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "foreground": "#bc4c00"
+    },
+    "STARTED": {
+      "foreground": "#8250df"
+    },
+    "NEXT": {
+      "foreground": "#0969da"
+    },
+    "WAIT": {
+      "foreground": "#57606a"
+    },
+    "COMPLETE": {
+      "foreground": "#1a7f37"
+    }
+  }
 }
 ```
 
