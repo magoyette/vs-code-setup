@@ -13,8 +13,9 @@ My personal VS Code setup.
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint): Lint JavaScript files with ESLint.
 - [French - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-french): French Dictionary for Code Spell Checker.
 - [GitHub Theme](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme): GitHub theme.
-- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): Improves Git History and Git Blame support in VS Code.
+- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): Annotations and lens for Git.
 - [Hugo Language and Syntax Support](https://marketplace.visualstudio.com/items?itemName=budparr.language-hugo-vscode): Syntax highlight for Hugo Templates.
+- [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one): Improvements for Markdown support.
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint): Lint Markdown files with markdownlint.
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme): Icon theme with Material Design icons.
 - [npm](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script): Run nom commands and verify installed version of NPM packages.
@@ -22,11 +23,13 @@ My personal VS Code setup.
 - [Partial Diff](https://marketplace.visualstudio.com/items?itemName=ryu1kn.partial-diff): Diff selections of text.
 - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense): Autocomplete file names.
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode): Format code with Prettier.
+- [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager): Switch quickly between projects.
 - [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv): Syntax highlight for CSVs and TSVs.
 - [ShellCheck](https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck): Lint bash and sh files with ShellCheck.
 - [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint): Lint CSS and Sass files with stylelint.
 - [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree): Tree view of TODOs in workspace.
 - [Transformer](https://marketplace.visualstudio.com/items?itemName=dakara.transformer): Additional text operations like sorting.
+- [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml): Language server support for YAML.
 
 ## Settings
 
@@ -38,16 +41,11 @@ My personal VS Code setup.
   "editor.fontFamily": "'DejaVu Sans Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
   "editor.fontSize": 16,
   "editor.lineHeight": 20,
-  "editor.bracketPairColorization.enabled": true,
+  "editor.linkedEditing": true,
   "editor.guides.bracketPairs": true,
   "extensions.ignoreRecommendations": false,
   "files.trimTrailingWhitespace": true,
   "git.closeDiffOnOperation": true,
-  "gitlens.currentLine.enabled": false,
-  "gitlens.hovers.currentLine.over": "line",
-  "gitlens.codeLens.enabled": false,
-  "gitlens.statusBar.enabled": false,
-  "gitlens.hovers.enabled": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "telemetry.telemetryLevel": "off",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
@@ -81,7 +79,6 @@ My personal VS Code setup.
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
-  "editor.linkedEditing": true,
   "todo-tree.general.tags": ["TODO", "STARTED", "NEXT", "WAIT", "COMPLETE"],
   "todo-tree.highlights.defaultHighlight": {
     "fontWeight": "bold"
@@ -102,7 +99,14 @@ My personal VS Code setup.
     "COMPLETE": {
       "foreground": "#1a7f37"
     }
-  }
+  },
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.codeLens.enabled": false,
+  "gitlens.statusBar.enabled": false,
+  "gitlens.plusFeatures.enabled": false,
+  "gitlens.virtualRepositories.enabled": false,
+  "gitlens.views.commits.avatars": false
 }
 ```
 
