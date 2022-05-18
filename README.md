@@ -127,9 +127,9 @@ My personal VS Code setup.
     "command": "cSpell.addWordToWorkspaceSettings"
   },
   {
-    "key": "capslock",
+    "key": "tab",
     "command": "editor.toggleFold",
-    "when": "editorTextFocus && foldingEnabled"
+    "when": "editorLangId == 'markdown' && editorTextFocus && foldingEnabled"
   },
   {
     "key": "ctrl+k ctrl+l",
@@ -219,12 +219,6 @@ My personal VS Code setup.
 | Ctrl+Alt+Down | Add cursor below |
 | Ctrl+Alt+Up   | Add cursor above |
 
-### Folding
-
-| Keybinding | Command                           |
-| ---------- | --------------------------------- |
-| Caps Lock  | Toggle fold of the current region |
-
 ### Git
 
 | Keybinding | Command                   |
@@ -239,6 +233,7 @@ My personal VS Code setup.
 | Ctrl+Shift+V | Switch between Markdown editor and preview |
 | Ctrl+K V     | Open preview on the side                   |
 | Alt+Shift+F  | Format Markdown table                      |
+| Tab          | Toggle fold of the current region          |
 
 ### Bookmarks
 
