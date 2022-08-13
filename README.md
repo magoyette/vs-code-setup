@@ -42,11 +42,11 @@ My personal VS Code setup.
   "editor.fontFamily": "'DejaVu Sans Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
   "editor.fontSize": 16,
   "editor.lineHeight": 20,
-  "editor.linkedEditing": true,
   "editor.guides.bracketPairs": true,
   "extensions.ignoreRecommendations": false,
   "files.trimTrailingWhitespace": true,
   "git.closeDiffOnOperation": true,
+  "git.mergeEditor": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "telemetry.telemetryLevel": "off",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
@@ -55,9 +55,6 @@ My personal VS Code setup.
   "workbench.enableExperiments": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -80,6 +77,10 @@ My personal VS Code setup.
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.linkedEditing": true,
   "todo-tree.general.tags": ["TODO", "STARTED", "NEXT", "WAIT", "COMPLETE"],
   "todo-tree.highlights.defaultHighlight": {
     "fontWeight": "bold"
@@ -107,7 +108,9 @@ My personal VS Code setup.
   "gitlens.statusBar.enabled": false,
   "gitlens.plusFeatures.enabled": false,
   "gitlens.virtualRepositories.enabled": false,
-  "gitlens.views.commits.avatars": false
+  "gitlens.views.commits.avatars": false,
+  "redhat.telemetry.enabled": false,
+  "bookmarks.keepBookmarksOnLineDelete": true
 }
 ```
 
