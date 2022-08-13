@@ -6,6 +6,7 @@ My personal VS Code setup.
 
 - [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks): Mark and jump to bookmarks.
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker): Spell checker with programming languages awareness.
+- [CodeMetrics](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics): Code complexity for TypeScript and JavaScript.
 - [Debugger for Firefox](https://marketplace.visualstudio.com/items?itemName=firefox-devtools.vscode-firefox-debug): Debug with Firefox from VS Code.
 - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker): Editor for Docker files and integration with Docker containers.
 - [edamagit](https://marketplace.visualstudio.com/items?itemName=kahole.magit): Magit for VS Code.
@@ -26,9 +27,10 @@ My personal VS Code setup.
 - [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager): Switch quickly between projects.
 - [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv): Syntax highlight for CSVs and TSVs.
 - [ShellCheck](https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck): Lint bash and sh files with ShellCheck.
-- [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint): Lint CSS and Sass files with stylelint.
+- [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint): Lint CSS and Sass files with stylelint.
 - [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree): Tree view of TODOs in workspace.
 - [Transformer](https://marketplace.visualstudio.com/items?itemName=dakara.transformer): Additional text operations like sorting.
+- [VSCode MDX](https://marketplace.visualstudio.com/items?itemName=unifiedjs.vscode-mdx): Support for MDX files.
 - [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml): Language server support for YAML.
 
 ## Settings
