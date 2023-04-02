@@ -4,6 +4,7 @@ My personal VS Code setup.
 
 ## Extensions
 
+- [Astro](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode) : Support for Astro.
 - [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks): Mark and jump to bookmarks.
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker): Spell checker with programming languages awareness.
   - [French - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-french): French Dictionary for Code Spell Checker.
@@ -15,6 +16,7 @@ My personal VS Code setup.
 - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one): Improvements for Markdown support.
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint): Lint Markdown files with markdownlint.
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme): Icon theme with Material Design icons.
+- [MDX](https://marketplace.visualstudio.com/items?itemName=unifiedjs.vscode-mdx): Support for MDX.
 - [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense): Autocomplete npm modules in import statements.
 - [Partial Diff](https://marketplace.visualstudio.com/items?itemName=ryu1kn.partial-diff): Diff selections of text.
 - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense): Autocomplete file names.
@@ -24,7 +26,8 @@ My personal VS Code setup.
 - [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint): Lint CSS and Sass files with stylelint.
 - [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree): Tree view of TODOs in workspace.
 - [Transformer](https://marketplace.visualstudio.com/items?itemName=dakara.transformer): Additional text operations like sorting.
-- [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml): Language server support for YAML.
+- [WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl): WSL support.
+- [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml): Integration with Windows Subsystem for Linux (WSL).
 
 ## Settings
 
@@ -32,6 +35,8 @@ My personal VS Code setup.
 {
   "cSpell.ignoreRegExpList": ["/\\w+([0-9]+\\w*)+/"],
   "cSpell.language": "en,fr",
+  "cSpell.enableFiletypes": ["!json", "!mjs", "!cjs"],
+  "diffEditor.renderSideBySide": false,
   "editor.minimap.enabled": false,
   "editor.fontFamily": "'DejaVu Sans Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
   "editor.fontSize": 16,
@@ -66,6 +71,9 @@ My personal VS Code setup.
     "editor.formatOnSave": true,
     "files.trimTrailingWhitespace": false
   },
+  "[mdx]": {
+    "editor.wordWrap": "on"
+  },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
@@ -74,7 +82,7 @@ My personal VS Code setup.
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "todo-tree.general.tags": ["TODO", "STARTED", "NEXT", "WAIT", "COMPLETE"],
+  "todo-tree.general.tags": ["TODO", "NEXT", "STARTED", "WAIT", "DONE"],
   "todo-tree.highlights.defaultHighlight": {
     "fontWeight": "bold"
   },
@@ -82,19 +90,21 @@ My personal VS Code setup.
     "TODO": {
       "foreground": "#bc4c00"
     },
-    "STARTED": {
-      "foreground": "#8250df"
-    },
     "NEXT": {
       "foreground": "#0969da"
+    },
+    "STARTED": {
+      "foreground": "#8250df"
     },
     "WAIT": {
       "foreground": "#57606a"
     },
-    "COMPLETE": {
+    "DONE": {
       "foreground": "#1a7f37"
     }
   },
+  "projectManager.git.baseFolders": ["C:\\dev"],
+  "projectManager.git.ignoredFolders": ["node_modules", "archives"],
   "redhat.telemetry.enabled": false,
   "bookmarks.keepBookmarksOnLineDelete": true
 }
@@ -129,19 +139,30 @@ My personal VS Code setup.
     "key": "ctrl+k ctrl+l",
     "command": "-editor.toggleFold",
     "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+    "key": "ctrl+shift+alt+p",
+    "command": "projectManager.listProjectsNewWindow"
   }
 ]
 ```
 
-### Commands and Navigation
+### Views and Commands
+
+| Keybinding   | Command             |
+| ------------ | ------------------- |
+| Ctrl+Shift+P | Command Palette     |
+| Ctrl+,       | Settings            |
+| Ctrl+Shift+E | Explorer view       |
+| Ctrl+Shift+G | Source control view |
+| Ctrl+`       | Terminal panel      |
+
+### Files and Navigation
 
 | Keybinding                 | Command                                                                  |
 | -------------------------- | ------------------------------------------------------------------------ |
-| Ctrl+Shift+P               | Command Palette                                                          |
-| Ctrl+,                     | Settings                                                                 |
-| Ctrl+Shift+E               | Explorer view                                                            |
-| Ctrl+Shift+G               | Source control view                                                      |
-| Ctrl+`                     | Terminal panel                                                           |
+| Ctrl+R                     | Open recent folders or files                                             |
+| Shift+Alt+P                | Open a project (Project Manager extension)                               |
 | Ctrl+P                     | Open a file by name                                                      |
 | Ctrl+Tab or Ctrl+Shift+Tab | Select next or previous file in a list of opened files                   |
 | Alt+Right or Alt+Left      | Go to next or previous edit location                                     |
@@ -156,21 +177,21 @@ My personal VS Code setup.
 
 ### Edition
 
-| Keybinding                        | Command                                           |
-| --------------------------------- | ------------------------------------------------- |
-| Ctrl+.                            | Quick fix and refactoring for the current problem |
-| F2                                | Rename symbol                                     |
-| Ctrl+Shift+Alt+(arrow key)        | Column (box) selection                            |
-| Shift+Alt+Right or Shift+Alt+Left | Expand or shrink current selection                |
-| Alt+Up or Alt+Down                | Move line up or down                              |
-| Ctrl+Shift+K                      | Delete line                                       |
-| Ctrl+Enter or Ctrl+Shift+Enter    | Insert line below or above                        |
-| Ctrl+Space                        | Intellisense                                      |
-| Shift+Alt+F                       | Format file                                       |
-| Alt+Click                         | Add a cursor to the multiple cursors              |
-| Ctrl+Alt+Down                     | Add cursor below to the multiple cursors          |
-| Ctrl+Alt+Up                       | Add cursor above to the multiple cursors          |
-| Ctrl+Alt+.                        | Add word to code spell checker workspace settings |
+| Keybinding                        | Command                                                                          |
+| --------------------------------- | -------------------------------------------------------------------------------- |
+| Ctrl+.                            | Quick fix and refactoring for the current problem                                |
+| F2                                | Rename symbol                                                                    |
+| Ctrl+Shift+Alt+(arrow key)        | Column (box) selection                                                           |
+| Shift+Alt+Right or Shift+Alt+Left | Expand or shrink current selection                                               |
+| Alt+Up or Alt+Down                | Move line up or down                                                             |
+| Ctrl+Shift+K                      | Delete line                                                                      |
+| Ctrl+Enter or Ctrl+Shift+Enter    | Insert line below or above                                                       |
+| Ctrl+Space                        | Intellisense                                                                     |
+| Shift+Alt+F                       | Format file                                                                      |
+| Alt+Click                         | Add a cursor to the multiple cursors                                             |
+| Ctrl+Alt+Down                     | Add cursor below to the multiple cursors                                         |
+| Ctrl+Alt+Up                       | Add cursor above to the multiple cursors                                         |
+| Ctrl+Alt+.                        | Add word to code spell checker workspace settings (Code Spell Checker extension) |
 
 ### Search
 
