@@ -81,7 +81,14 @@ My personal VS Code setup.
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "todo-tree.general.tags": ["TODO", "NEXT", "STARTED", "WAIT", "DONE"],
+  "todo-tree.general.tags": [
+    "TODO",
+    "NEXT",
+    "IN_PROGRESS",
+    "STARTED",
+    "WAIT",
+    "DONE"
+  ],
   "todo-tree.highlights.defaultHighlight": {
     "fontWeight": "bold"
   },
@@ -91,6 +98,9 @@ My personal VS Code setup.
     },
     "NEXT": {
       "foreground": "#0969da"
+    },
+    "IN_PROGRESS": {
+      "foreground": "#d1222e"
     },
     "STARTED": {
       "foreground": "#8250df"
