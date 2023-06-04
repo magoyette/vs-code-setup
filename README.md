@@ -35,6 +35,7 @@ My personal VS Code setup.
   "cSpell.ignoreRegExpList": ["/\\w+([0-9]+\\w*)+/"],
   "cSpell.language": "en,fr",
   "cSpell.enableFiletypes": ["!json", "!mjs", "!cjs"],
+  "diffEditor.diffAlgorithm": "advanced",
   "diffEditor.renderSideBySide": false,
   "editor.minimap.enabled": false,
   "editor.fontFamily": "'DejaVu Sans Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
@@ -152,19 +153,24 @@ My personal VS Code setup.
   {
     "key": "ctrl+shift+alt+p",
     "command": "projectManager.listProjectsNewWindow"
+  },
+  {
+    "key": "alt+x",
+    "command": "editor.action.openLink"
   }
 ]
 ```
 
 ### Views and Commands
 
-| Keybinding   | Command             |
-| ------------ | ------------------- |
-| Ctrl+Shift+P | Command Palette     |
-| Ctrl+,       | Settings            |
-| Ctrl+Shift+E | Explorer view       |
-| Ctrl+Shift+G | Source control view |
-| Ctrl+`       | Terminal panel      |
+| Keybinding               | Command                    |
+| ------------------------ | -------------------------- |
+| Ctrl+Shift+P             | Command Palette            |
+| Ctrl+,                   | Settings                   |
+| Ctrl+Shift+E             | Explorer view              |
+| Ctrl+Shift+G             | Source control view        |
+| Ctrl+`                   | Terminal panel             |
+| Ctrl+PgUp or Ctrl+PgDown | Focus on next editor group |
 
 ### Files and Navigation
 
@@ -176,6 +182,7 @@ My personal VS Code setup.
 | Ctrl+Tab or Ctrl+Shift+Tab | Select next or previous file in a list of opened files                   |
 | Alt+Right or Alt+Left      | Go to next or previous edit location                                     |
 | F12 or Ctrl+Click          | Go to the definition of a symbol                                         |
+| Ctrl+F12                   | Go to implementation                                                     |
 | Alt+F12                    | Peek definition of symbol                                                |
 | Ctrl+F12                   | Go to implementation of a symbol                                         |
 | Ctrl+Shift+O               | Go to a symbol in the current file by name (type : to group by category) |
@@ -183,6 +190,7 @@ My personal VS Code setup.
 | Shift+Alt+F12              | Find references                                                          |
 | F8 or Shift+F8             | Go to next or previous problem                                           |
 | Ctrl+Up or Ctrl+Down       | Scroll line up or down                                                   |
+| Alt+X                      | Open link                                                                |
 
 ### Edition
 
@@ -201,6 +209,10 @@ My personal VS Code setup.
 | Ctrl+Alt+Down                     | Add cursor below to the multiple cursors                                         |
 | Ctrl+Alt+Up                       | Add cursor above to the multiple cursors                                         |
 | Ctrl+Alt+.                        | Add word to code spell checker workspace settings (Code Spell Checker extension) |
+| Ctrl+Delete                       | Delete to Word End                                                               |
+| Ctrl+Backspace                    | Delete to Word Start                                                             |
+| Alt+Shift+Down                    | Duplicate line                                                                   |
+| Ctrl+Shift+R                      | Refactor                                                                         |
 
 ### Search
 
