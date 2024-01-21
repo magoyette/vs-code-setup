@@ -5,20 +5,21 @@ My personal VS Code setup.
 ## Extensions
 
 - [Astro](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode) : Support for Astro.
-- [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks): Mark and jump to bookmarks.
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker): Spell checker with programming languages awareness.
   - [French - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-french): French Dictionary for Code Spell Checker.
 - [Debugger for Firefox](https://marketplace.visualstudio.com/items?itemName=firefox-devtools.vscode-firefox-debug): Debug with Firefox from VS Code.
 - [ES7 React/Redux/React-Native/JS snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets): Snippets for React.
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint): Lint JavaScript files with ESLint.
+- [Git Blame](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame)
+- [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 - [GitHub Theme](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme): GitHub theme.
 - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one): Improvements for Markdown support.
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint): Lint Markdown files with markdownlint.
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme): Icon theme with Material Design icons.
 - [MDX](https://marketplace.visualstudio.com/items?itemName=unifiedjs.vscode-mdx): Support for MDX.
 - [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense): Autocomplete npm modules in import statements.
-- [Partial Diff](https://marketplace.visualstudio.com/items?itemName=ryu1kn.partial-diff): Diff selections of text.
 - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense): Autocomplete file names.
+- [Playwright Test for VSCode](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright)
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode): Format code with Prettier.
 - [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager): Switch quickly between projects.
 - [ShellCheck](https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck): Lint bash and sh files with ShellCheck.
@@ -35,8 +36,9 @@ My personal VS Code setup.
   "cSpell.ignoreRegExpList": ["/\\w+([0-9]+\\w*)+/"],
   "cSpell.language": "en,fr",
   "cSpell.enableFiletypes": ["!json", "!mjs", "!cjs"],
-  "diffEditor.diffAlgorithm": "advanced",
   "diffEditor.renderSideBySide": false,
+  "diffEditor.experimental.showMoves": true,
+  "diffEditor.hideUnchangedRegions.enabled": true,
   "editor.minimap.enabled": false,
   "editor.fontFamily": "'DejaVu Sans Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
   "editor.fontSize": 16,
@@ -46,13 +48,19 @@ My personal VS Code setup.
   "files.trimTrailingWhitespace": true,
   "git.closeDiffOnOperation": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.inlayHints.enabled": "on",
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "javascript.inlayHints.parameterNames.enabled": "all",
   "telemetry.telemetryLevel": "off",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "workbench.colorTheme": "GitHub Light Default",
   "workbench.editor.enablePreview": false,
   "workbench.enableExperiments": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
+  "prettier.documentSelectors": ["**/*.astro"],
+  "[astro]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -116,7 +124,13 @@ My personal VS Code setup.
   "projectManager.git.baseFolders": ["C:\\dev"],
   "projectManager.git.ignoredFolders": ["node_modules", "archives"],
   "redhat.telemetry.enabled": false,
-  "bookmarks.keepBookmarksOnLineDelete": true
+  "playwright.reuseBrowser": false,
+  "playwright.showTrace": false,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.codeLens.enabled": false,
+  "gitlens.statusBar.enabled": false,
+  "workbench.colorTheme": "GitHub Light Default"
 }
 ```
 
