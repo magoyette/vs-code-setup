@@ -91,9 +91,12 @@ My personal VS Code setup.
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "todo-tree.general.tags": [
+    "IDEA",
+    "READ",
     "TODO",
     "NEXT",
-    "IN_PROGRESS",
+    "DOING",
+    "READING",
     "STARTED",
     "WAIT",
     "DONE"
@@ -102,16 +105,25 @@ My personal VS Code setup.
     "fontWeight": "bold"
   },
   "todo-tree.highlights.customHighlight": {
+    "READ": {
+      "foreground": "#bc4c00"
+    },
+    "IDEA": {
+      "foreground": "#bc4c00"
+    },
     "TODO": {
       "foreground": "#bc4c00"
     },
     "NEXT": {
       "foreground": "#0969da"
     },
-    "IN_PROGRESS": {
-      "foreground": "#d1222e"
+    "DOING": {
+      "foreground": "#8250df"
     },
     "STARTED": {
+      "foreground": "#8250df"
+    },
+    "READING": {
       "foreground": "#8250df"
     },
     "WAIT": {
