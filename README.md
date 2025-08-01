@@ -8,10 +8,11 @@ My personal VS Code setup.
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker): Spell checker with programming languages awareness.
   - [French - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-french): French Dictionary for Code Spell Checker.
 - [Debugger for Firefox](https://marketplace.visualstudio.com/items?itemName=firefox-devtools.vscode-firefox-debug): Debug with Firefox from VS Code.
-- [ES7 React/Redux/React-Native/JS snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets): Snippets for React.
+- [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker): Docker extension pack.
+- [Docker DX](https://marketplace.visualstudio.com/items?itemName=docker.docker): Docker DX provides additional features for Docker.Desktop.
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint): Lint JavaScript files with ESLint.
+- [Gemini Code Assist](https://marketplace.visualstudio.com/items?itemName=Google.geminicodeassist): VS Code integration of Gemini CLI.
 - [Git Blame](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame)
-- [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 - [GitHub Theme](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme): GitHub theme.
 - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one): Improvements for Markdown support.
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint): Lint Markdown files with markdownlint.
@@ -24,12 +25,15 @@ My personal VS Code setup.
 - [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager): Switch quickly between projects.
 - [ShellCheck](https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck): Lint bash and sh files with ShellCheck.
 - [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint): Lint CSS and Sass files with stylelint.
+- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss): Tailwind CSS completions.
 - [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree): Tree view of TODOs in workspace.
 - [Transformer](https://marketplace.visualstudio.com/items?itemName=dakara.transformer): Additional text operations like sorting.
 - [WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl): WSL support.
 - [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml): Integration with Windows Subsystem for Linux (WSL).
 
 ## Settings
+
+Apply the following user settings.
 
 ```json
 {
@@ -133,18 +137,17 @@ My personal VS Code setup.
       "foreground": "#1a7f37"
     }
   },
-  "projectManager.git.baseFolders": ["C:\\dev"],
+  "projectManager.git.baseFolders": ["*****TODO Add folder of projects*****"],
   "projectManager.git.ignoredFolders": ["node_modules", "archives"],
   "redhat.telemetry.enabled": false,
   "playwright.reuseBrowser": false,
   "playwright.showTrace": false,
-  "gitlens.currentLine.enabled": false,
-  "gitlens.hovers.currentLine.over": "line",
-  "gitlens.codeLens.enabled": false,
-  "gitlens.statusBar.enabled": false,
-  "workbench.colorTheme": "GitHub Light Default"
+  "workbench.colorTheme": "GitHub Light Default",
+  "geminicodeassist.updateChannel": "Insiders"
 }
 ```
+
+Configure "Gemini Code Assist: Privacy Settings".
 
 ## Keybindings (for Windows)
 
